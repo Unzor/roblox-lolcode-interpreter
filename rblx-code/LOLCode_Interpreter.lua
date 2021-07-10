@@ -1,3 +1,4 @@
+local _url_="YOUR URL HERE"
 local h={}
 local input
 h.setInput=function(v)
@@ -20,7 +21,7 @@ h.interpret=function(code)
 "code": "]]..val..[[",
 "input": "]]..input..[["
 }]]
-	local response=game.HttpService:PostAsync("https://lolcode-request-compile.seven7four4.repl.co/interpretLOLCODE", array)
+	local response=game.HttpService:PostAsync(_url_, array)
 	return response
 end
 
