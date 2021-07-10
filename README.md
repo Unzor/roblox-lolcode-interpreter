@@ -1,5 +1,5 @@
 # roblox-lolcode-interpreter
-A LOLCODE Interpreter for Roblox written in JavaScript and Lua.
+A LOLCODE Interpreter for Roblox written in JavaScript and Luau.
 
 # How to build & run
 First, run this code in terminal (or in Git if you are using Windows):
