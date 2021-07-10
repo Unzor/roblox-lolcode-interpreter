@@ -19,3 +19,14 @@ Then, add the "LOLCode_Interpreter.lua" file to your game in ReplicatedStorage. 
 Change the _url_ variable to your NGROK site, and add /interpretLOLCODE to the end of your NGROK URL.
 
 Now you can test your code in ROBLOX! Create a script in Workspace, and use the LOLCODE Interpreter API like this:
+
+ ```lua
+local lolcode=require(game.ReplicatedStorage.LOLCode_Interpreter)
+	local interpretedCode=lolcode.interpret([[HAI 1.2
+    VISIBLE "Hello, World!"
+KTHXBYE]])
+
+	print(interpretedCode)
+```
+
+You can add input by using ```lolcode.setInput("v") ```.
