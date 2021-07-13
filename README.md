@@ -9,7 +9,7 @@ cd roblox-lolcode-interpreter
 cd node
 npm init -y
 npm install
-node index.js
+node node/index.js
 ```
 After that, your page should be running at localhost:8000.
 Port your site to NGROK, or use other software.
